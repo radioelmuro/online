@@ -165,7 +165,7 @@ footer p {
 
     .header::after {
 
-        height: 50vh;
+        height: 40vh;
         
 
     }
@@ -174,7 +174,7 @@ footer p {
 
         top: 5%;
         margin-top: 5px;
-        margin-left: -28%;
+        margin-left: -160px;
 
     }
 
