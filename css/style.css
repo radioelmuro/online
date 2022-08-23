@@ -46,16 +46,6 @@ body {
 
 }
 
-.header:hover .header-content {
-
-
-    filter: blur(2px);
-    -webkit-filter: blur(10px);
-
-
-
-
-}
 
 .header-content {
 
