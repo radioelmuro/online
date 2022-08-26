@@ -44,31 +44,25 @@
 
     
 
-    <audio class="buton" src="http://78.129.185.81:32247/;" controls>
-        Your browser does not support the <code>audio</code> element.
-    </audio>
-
-    <button id="boton" class="buton"></button>
-
-                <script type="text/javascript">
-                var v = document.getElementsByTagName("audio")[0];
-                var sound = false;
-                
-                var boton = document.getElementById("boton");
-                boton.addEventListener("click", function(){
-                    if (!sound) {
-                        v.play();
-                        this.innerHTML = "Pause";
-                        sound = true;
-                    } else {
-                        v.pause();
-                        this.innerHTML = "Play";
-                        sound = false;
-                    }
-                });
-                
-                
-                </script>
+        <!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
+<script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+<script type="text/javascript">
+MRP.insert({
+'url':'http://78.129.185.81:32247/;',
+'codec':'mp3',
+'volume':100,
+'autoplay':true,
+'forceHTML5':true,
+'jsevents':true,
+'buffering':0,
+'title':'102.5',
+'wmode':'transparent',
+'skin':'original',
+'width':329,
+'height':21
+});
+</script>
+<!-- ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
 
 
 
