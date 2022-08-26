@@ -32,6 +32,32 @@
             <img src="img/logochico1.png" alt="logo" class="logo">
             <h3 class="tite"> Radio El Muro Online </h3>
             <p class="text">Falucho 950. Tandil, Buenos Aires | Argentina</p>
+            
+            <audio class="buton" src="http://78.129.185.81:32247/;" controls>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+
+    <button id="boton" class="buton"></button>
+
+                <script type="text/javascript">
+                var v = document.getElementsByTagName("audio")[0];
+                var sound = false;
+                
+                var boton = document.getElementById("boton");
+                boton.addEventListener("click", function(){
+                    if (!sound) {
+                        v.play();
+                        this.innerHTML = "Pause";
+                        sound = true;
+                    } else {
+                        v.pause();
+                        this.innerHTML = "Play";
+                        sound = false;
+                    }
+                });
+                
+                
+                </script>
 
 
 
